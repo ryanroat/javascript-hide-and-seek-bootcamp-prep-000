@@ -24,6 +24,6 @@ function increaseRankBy(n) {
 function deepestChild() {
   let gn = document.getElementById('grand-node');
   let gndivs = gn.getElementsByTagName('div');
-  depth = gndivs.length - 1;
+  let depth = gndivs.length - 1;
   return gndivs[depth];
 }
